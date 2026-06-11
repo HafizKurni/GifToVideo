@@ -1,0 +1,11 @@
+# ── Core ────────────────────────────────────────────────────────────────────
+streamlit>=1.35.0
+
+# ── FFmpeg (bundled, no system install needed) ──────────────────────────────
+imageio-ffmpeg>=0.5.1
+
+# ── Image processing (GIF/APNG/WebP read, sprite sheet slicing, frame strip) ─
+Pillow>=10.3.0
+
+# ── Optional: LibreSprite or Aseprite must be installed separately on your
+#    system to handle .ase / .aseprite files. No Python package required.
